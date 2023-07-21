@@ -1,10 +1,10 @@
-import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles";
+import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
 
 import logoImg from '../../assets/logo.svg'
-import * as Dialog from "@radix-ui/react-dialog";
-import { NewTransactionModal } from "../NewTransactionModal";
+import * as Dialog from '@radix-ui/react-dialog'
+import { NewTransactionModal } from '../NewTransactionModal'
 
-export function Header(){
+export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
@@ -16,7 +16,6 @@ export function Header(){
           </Dialog.Trigger>
 
           <NewTransactionModal />
-
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>

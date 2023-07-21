@@ -15,6 +15,22 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-01-31T18:11:23.288Z"
+    },
+    {
+      "category": "Venda",
+      "description": "Desenvolvimento plataforma",
+      "price": 2000,
+      "type": "income",
+      "createdAt": "2023-07-20T19:43:44.247Z",
+      "id": 3
+    },
+    {
+      "category": "Alimentação",
+      "description": "Pizza",
+      "price": 85,
+      "type": "outcome",
+      "createdAt": "2023-07-20T19:57:09.658Z",
+      "id": 4
     }
   ]
 }
